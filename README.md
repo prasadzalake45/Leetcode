@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0890-lemonade-change](https://github.com/prasadzalake45/Leetcode/tree/master/0890-lemonade-change) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 ## Hash Table
 |  |
@@ -19,4 +20,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+## Greedy
+|  |
+| ------- |
+| [0890-lemonade-change](https://github.com/prasadzalake45/Leetcode/tree/master/0890-lemonade-change) |
 <!---LeetCode Topics End-->
