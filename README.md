@@ -15,10 +15,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/prasadzalake45/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/prasadzalake45/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/prasadzalake45/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -65,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/prasadzalake45/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
