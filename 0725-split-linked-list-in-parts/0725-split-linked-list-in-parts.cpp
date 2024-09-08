@@ -11,7 +11,7 @@
 class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
-        vector<ListNode*>vec(k,nullptr);
+        vector<ListNode*>vec;
 
         ListNode* temp=head;
         int cnt=0;
@@ -31,7 +31,7 @@ public:
         for(int i=0;i<k;i++){
 
         
-            vec[i]=cur;
+            vec.push_back(cur);
 
             for(int i=0;i<split+(rem>0?1:0);i++){
                 
