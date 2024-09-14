@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool hasDuplicate(string& s1,string& s2){
-        int vec[26]={0};
+    int vec[26]={0};
 
         for(char ch:s1){
             if(vec[ch-'a']>0){
