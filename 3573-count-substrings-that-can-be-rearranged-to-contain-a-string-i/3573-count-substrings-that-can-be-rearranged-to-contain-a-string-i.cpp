@@ -1,46 +1,50 @@
 class Solution {
 public:
     long long validSubstringCount(string word1, string word2) {
-        long long count = 0;
-        unordered_map<char, int> targetFreq, currentFreq;
+        
+        unordered_map<char,int>mp;
+        unordered_map<char,int>mp2;
 
-        // Build frequency map for word2
-        for (char ch : word2) {
-            targetFreq[ch]++;
+        for(char ch:word2){
+            mp[ch]++;
+
         }
 
-        int requiredChars = targetFreq.size(); // Unique characters needed
-        int formedChars = 0; // Unique characters in current window that meet frequency
+        int req=mp.size();
+        int uni=0;
 
-        int left = 0; // Left pointer for the sliding window
+        int i=0;
+        long long  cnt=0;
 
-        // Expand the window with right pointer
-        for (int right = 0; right < word1.size(); right++) {
-            char currentChar = word1[right];
-            currentFreq[currentChar]++;
+        for(int j=0;j<word1.size();j++){
+            char curr=word1[j];
+            mp2[curr]++;
 
-            // Check if current character's frequency matches the target
-            if (targetFreq.count(currentChar) && currentFreq[currentChar] == targetFreq[currentChar]) {
-                formedChars++;
+            if(mp.count(curr)  && mp[curr]==mp2[curr]){
+                uni++;
+
+
             }
 
-            // While we have a valid window, count valid substrings
-            while (formedChars == requiredChars) {
-                count += (word1.size() - right); // Count all valid substrings from left to right
+            while(uni==req){
+                cnt+=(word1.size()-j);
 
-                // Remove the leftmost character from the window
-                char leftChar = word1[left];
-                currentFreq[leftChar]--;
+                char cu=word1[i];
+                mp2[cu]--;
 
-                // Update formedChars if necessary
-                if (targetFreq.count(leftChar) && currentFreq[leftChar] < targetFreq[leftChar]) {
-                    formedChars--;
+                if(mp.count(cu)  && mp2[cu]<mp[cu]){
+                    uni--;
+
                 }
 
-                left++; // Move left pointer forward
+                i++;
+
+
             }
+
+
         }
 
-        return count; // Return the total count of valid substrings
+        return cnt;
     }
 };
