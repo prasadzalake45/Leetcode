@@ -59,7 +59,34 @@ private:
     int dfs(const string& s, int index, unordered_set<string>& dict, vector<int>& memo) {
         // Base case: if we reach the end of the string
         if (index == s.size()) {
-            return 0;
+       class Solution {
+public:
+    int minExtraChar(string s, vector<string>& dictionary) {
+        unordered_set<string> dict(dictionary.begin(), dictionary.end());
+        return dfs(s, 0, dict);
+    }
+
+private:
+    int dfs(const string& s, int index, unordered_set<string>& dict) {
+        // Base case: if we reach the end of the string
+        if (index == s.size()) {
+            return 0;  // No extra characters needed
+        }
+
+        int minExtra = 1 + dfs(s, index + 1, dict);  // Assume the current character is extra
+
+        // Try all possible substrings starting from the current index
+        for (int j = index + 1; j <= s.size(); j++) {
+            string sub = s.substr(index, j - index);  // Create the substring
+            if (dict.find(sub) != dict.end()) {  // If the substring is in the dictionary
+                minExtra = min(minExtra, dfs(s, j, dict));  // Skip the valid substring
+            }
+        }
+
+        return minExtra;  // Return the minimum extra characters
+    }
+};
+     return 0;
         }
         
         // Check memoization
