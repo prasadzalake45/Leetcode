@@ -25,7 +25,7 @@ public:
             }
 
             if(it>0){
-                res=max(res,static_cast<int>(log10(it)+1));
+                res=max(res,(int)log10(it)+1);
 
 
             }
