@@ -1,35 +1,30 @@
 class MyCalendarTwo {
-public:
 
-   vector<pair<int,int>>booking;
-    vector<pair<int,int>>overlap;
+    map<int,int>mp;
+public:
     MyCalendarTwo() {
-        
         
     }
     
-    
     bool book(int start, int end) {
 
-        for(auto o:overlap){
+        mp[start]++;
+        mp[end]--;
 
-            if(max(start,o.first)<min(end,o.second)){
+        int sum=0;
+
+        for(auto it:mp){
+            sum+=it.second;
+
+            if(sum>=3){
+                mp[start]--;
+                mp[end]++;
                 return false;
-            }
 
+            }
+        
         }
 
-        for(auto it:booking){
-
-            int overlap_first=max(start,it.first);
-            int overlap_end=min(end,it.second);
-            if(overlap_first<overlap_end){
-                overlap.push_back({overlap_first,overlap_end});
-            }
-
-        }
-
-        booking.push_back({start,end});
         return true;
         
     }
