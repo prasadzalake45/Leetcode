@@ -2,11 +2,11 @@ class Solution {
 public:
 
     
-    int helper(vector<int>&piles,long r){
+    long long  helper(vector<int>&piles,long r){
         
         long long  totalhr=0;
         for(int i=0;i<piles.size();i++){
-            totalhr+=ceil((double)piles[i]/(double)r);
+            totalhr+=ceil((double (piles[i])/double (r)));
         }
         
 
