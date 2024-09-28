@@ -2,9 +2,9 @@ class Solution {
 public:
 
     
-    long long  helper(vector<int>&piles,long r){
+    long   helper(vector<int>&piles,long r){
         
-        long long  totalhr=0;
+        long totalhr=0;
         for(int i=0;i<piles.size();i++){
             totalhr+=ceil((double (piles[i])/double (r)));
         }
@@ -23,7 +23,7 @@ public:
         while(low<=high){
             long mid=(low+high)/2;
 
-            long long  ans=helper(piles,mid);
+           long  ans=helper(piles,mid);
 
             if(ans<=h){
                 cur=mid;
