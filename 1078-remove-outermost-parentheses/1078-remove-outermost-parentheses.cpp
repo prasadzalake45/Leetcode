@@ -1,7 +1,7 @@
 class Solution {
 public:
     string removeOuterParentheses(string s) {
-        
+
         stack<char>st;
 
         string ans="";
@@ -10,23 +10,21 @@ public:
             if(st.empty() && ch=='('){
                 st.push(ch);
             }
-            else if(!st.empty() && ch=='('){
-                st.push(ch);
+            else  if(!st.empty() && ch=='('){
                 ans+=ch;
+                st.push(ch);
             }
-            else if(ch==')'){
-                if(st.size()==1){
-                    st.pop();
+            else if(st.size()==1 && ch==')'){
+                st.pop();
+            }
+            else if(ch=')'){
+                ans+=ch;
+                st.pop();
+            }
 
-                }
-                else{
-                    ans+=ch;
-                    st.pop();
-                }
-                
-            }
         }
 
         return ans;
+        
     }
 };
