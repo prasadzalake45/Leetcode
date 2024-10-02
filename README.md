@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/prasadzalake45/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/prasadzalake45/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 | [2755-extra-characters-in-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/2755-extra-characters-in-a-string) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/prasadzalake45/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Greedy
 |  |
 | ------- |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prasadzalake45/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/prasadzalake45/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/prasadzalake45/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
