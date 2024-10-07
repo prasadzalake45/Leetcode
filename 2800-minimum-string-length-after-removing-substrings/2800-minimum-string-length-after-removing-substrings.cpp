@@ -11,7 +11,9 @@ public:
                 } else {
                     st.push(ch); 
                 }
-            } else {
+            } 
+            
+            else {
                 st.push(ch); 
             }
         }
