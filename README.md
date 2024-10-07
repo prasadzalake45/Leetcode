@@ -152,12 +152,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/prasadzalake45/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 | [2755-extra-characters-in-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/2755-extra-characters-in-a-string) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/prasadzalake45/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Simulation
 |  |
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/prasadzalake45/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [2411-spiral-matrix-iv](https://github.com/prasadzalake45/Leetcode/tree/master/2411-spiral-matrix-iv) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Matrix
 |  |
 | ------- |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/prasadzalake45/Leetcode/tree/master/0394-decode-string) |
 | [1078-remove-outermost-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Dynamic Programming
 |  |
 | ------- |
