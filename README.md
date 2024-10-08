@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1256-rank-transform-of-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prasadzalake45/Leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1923-sentence-similarity-iii) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/prasadzalake45/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1256-rank-transform-of-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/prasadzalake45/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/prasadzalake45/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prasadzalake45/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Counting
 |  |
@@ -131,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0731-my-calendar-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0731-my-calendar-ii) |
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 ## String
@@ -226,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/prasadzalake45/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/prasadzalake45/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Depth-First Search
