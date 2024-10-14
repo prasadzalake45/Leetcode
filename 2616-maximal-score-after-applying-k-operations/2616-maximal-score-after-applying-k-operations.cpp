@@ -16,7 +16,7 @@ public:
         pq.pop();
 
         score+=ans;
-        double res=ans/3.0;
+        double res=ans/3;
 
 
 
