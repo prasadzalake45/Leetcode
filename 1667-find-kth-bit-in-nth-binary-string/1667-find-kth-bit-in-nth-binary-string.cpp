@@ -15,7 +15,7 @@ public:
            int ans;
 
        for (int j = 0; j < a.size(); j++) {
-                a[j] = (a[j] == '0') ? '1' : '0';  // Flip bits
+            a[j] = (a[j] == '0') ? '1' : '0';  
         }
 
         
