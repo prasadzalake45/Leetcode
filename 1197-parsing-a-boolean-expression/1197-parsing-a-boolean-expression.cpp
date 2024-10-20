@@ -56,6 +56,6 @@ public:
             }
         }
 
-        return s1.top() == 't';
+        return s1.top()=='t';
     }
 };
