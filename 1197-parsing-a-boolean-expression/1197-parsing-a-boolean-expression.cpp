@@ -26,8 +26,9 @@ public:
                     operands.push_back(s1.top());
                     s1.pop();
                 }
-
                 s1.pop();
+
+               
 
                 if (curOperator == '!') {
                     char p = operands[0];
