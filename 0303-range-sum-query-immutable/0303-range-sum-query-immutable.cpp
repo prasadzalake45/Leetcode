@@ -1,9 +1,9 @@
 class NumArray {
 
-    vector<int>nums;
+    vector<int>a;
 public:
     NumArray(vector<int>& nums) {
-        this->nums=nums;
+        this->a=nums;
         
     }
     
@@ -12,7 +12,7 @@ public:
         int sum=0;
 
         for(int i=left;i<=right;i++){
-            sum+=nums[i];
+            sum+=a[i];
 
         }
 
