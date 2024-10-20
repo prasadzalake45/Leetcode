@@ -22,7 +22,7 @@ public:
 
                 vector<char> operands;
 
-                while (!s1.empty() && s1.top() != '(') {
+                while (s1.top() != '(') {
                     operands.push_back(s1.top());
                     s1.pop();
                 }
