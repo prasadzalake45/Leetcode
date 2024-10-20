@@ -1,22 +1,25 @@
 class NumArray {
 
-    vector<int>a;
+    vector<int>prefixSum;
 public:
     NumArray(vector<int>& nums) {
-        this->a=nums;
+        for(int i=1;i<nums.size();i++){
+            nums[i]=nums[i]+nums[i-1];
+
+
+        }
+
+        this->prefixSum=nums;
         
     }
     
     int sumRange(int left, int right) {
 
-        int sum=0;
-
-        for(int i=left;i<=right;i++){
-            sum+=a[i];
-
+        if(left==0){
+            return prefixSum[right];
         }
 
-        return sum;
+        return prefixSum[right]-prefixSum[left-1];
         
     }
 };
