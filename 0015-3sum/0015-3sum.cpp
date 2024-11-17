@@ -1,46 +1,49 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
+
         sort(nums.begin(), nums.end());
 
-        vector<vector<int>> vec;
-
         int n = nums.size();
+        vector<int> tri;
+        vector<vector<int>> ans;
 
-        for (int k = 0; k < n; k++) {
+        for (int i = 0; i < n; i++) {
 
-            if (k > 0 && nums[k] == nums[k - 1]) {
+            if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
-            int i = k + 1;
-            int j = n - 1;
 
-            while (i < j) {
+            int j = i + 1;
+            int k = n - 1;
 
-                int sum = nums[i] + nums[j] + nums[k];
+            while (j < k) {
 
-                if (sum == 0) {
-                    vec.push_back({nums[k], nums[i], nums[j]});
+                if (nums[i] + nums[j] + nums[k] == 0) {
+                    tri = {nums[i], nums[j], nums[k]};
+                    ans.push_back(tri);
 
-                    while (i < j && nums[i] == nums[i + 1]) {
-                        i++;
+                    while (j < k && nums[j] == nums[j + 1]) {
+                        j++;
                     }
-                    while (i < j && nums[j] == nums[j - 1]) {
-                        j--;
+                    while (j < k && nums[k] == nums[k - 1]) {
+                        k--;
                     }
 
-                    i++;
-                    j--;
+                    j++;
+                    k--;
+
                 }
-                else if(sum>0){
-                    j--;
-                }
-                else{
-                    i++;
+
+                else if (nums[i] + nums[j] + nums[k] > 0) {
+                    k--;
+                } else {
+                    j++;
                 }
             }
         }
 
-        return vec;
+        
+        return ans;
     }
 };
