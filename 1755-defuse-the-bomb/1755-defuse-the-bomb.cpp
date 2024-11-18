@@ -1,49 +1,48 @@
 class Solution {
 public:
     vector<int> decrypt(vector<int>& code, int k) {
-        int n = code.size();
-        if (k == 0) return vector<int>(n, 0); // If k == 0, return all zeros
 
-        // Step 1: Build the prefix sum array
-        vector<int> prefix(n + 1, 0);
-        for (int i = 0; i < n; i++) {
-            prefix[i + 1] = prefix[i] + code[i];
+        int n=code.size();
+        
+
+        vector<int>res(n,0);
+
+        if(k==0){
+            return res;
         }
 
-        // Step 2: Result array
-        vector<int> result(n, 0);
 
-        if (k > 0) {
-            // Sum the next k elements for each index
-            for (int i = 0; i < n; i++) {
-                int start = (i + 1) % n;
-                int end = (i + k) % n;
+        int i=-1,j=-1;
 
-                if (start <= end) {
-                    // Case 1: The range doesn't cross the array boundary
-                    result[i] = prefix[end + 1] - prefix[start];
-                } else {
-                    // Case 2: The range wraps around the array
-                    result[i] = (prefix[n] - prefix[start]) + prefix[end + 1];
-                }
-            }
-        } else {
-            // Sum the previous |k| elements for each index
-            int p = -k; // Absolute value of k
-            for (int i = 0; i < n; i++) {
-                int start = (i - p + n) % n;
-                int end = (i - 1 + n) % n;
+        if(k>0){
+            i=1;
+            j=k;
 
-                if (start <= end) {
-                    // Case 1: The range doesn't cross the array boundary
-                    result[i] = prefix[end + 1] - prefix[start];
-                } else {
-                    // Case 2: The range wraps around the array
-                    result[i] = (prefix[n] - prefix[start]) + prefix[end + 1];
-                }
-            }
+        }
+        else{
+            i=n-abs(k);
+            j=n-1;
         }
 
-        return result;
+
+
+        int windowSum=0;
+
+        for(int r=i;r<=j;r++){
+            windowSum+=code[r];
+        }
+
+
+        for(int p=0;p<n;p++){
+
+            res[p]=windowSum;
+            windowSum-=code[i%n];
+            i++;
+            windowSum+=code[(j+1)%n];
+            j++;
+
+        }
+
+        return res;
     }
 };
