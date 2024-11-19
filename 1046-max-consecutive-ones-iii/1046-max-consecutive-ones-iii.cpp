@@ -19,7 +19,7 @@ public:
             }
 
             else{
-                maxi=max(maxi,j-i);
+                // maxi=max(maxi,j-i);
                 if(nums[i]==0){
                     zeros--;
                 }
