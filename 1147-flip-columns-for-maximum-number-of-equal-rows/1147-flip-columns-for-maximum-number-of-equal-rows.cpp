@@ -2,32 +2,36 @@ class Solution {
 public:
     int maxEqualRowsAfterFlips(vector<vector<int>>& matrix) {
 
+
         int m=matrix.size();
         int n=matrix[0].size();
-        int maxR=0;
+        unordered_map<string,int>mp;
 
-        for(auto& curRow:matrix){
+        for(vector<int>&curRow:matrix){
 
-            vector<int>inverted(n);
+            string str="";
+            int firstval=curRow[0];
 
-            for(int col=0;col<n;col++){
-                inverted[col]=curRow[col]==0?1:0;
+            for(int col=0;col<n;col++)
+            {
+
+                str+=(curRow[col]==firstval)?"S":"B";
+
             }
 
-            int cnt=0;
-
-            for(auto& row:matrix){
-                if(row==curRow || row==inverted){
-                    cnt++;
-                }
-            }
-
-        maxR=max(maxR,cnt);
+            mp[str]++;
 
 
+             
+        }
+        int maxi=0;
+
+        for(auto it:mp){
+
+        maxi=max(maxi,it.second);
         }
 
-        return maxR;
+        return maxi;
         
     }
 };
