@@ -13,12 +13,12 @@ public:
                 it[1]=max(it[1],intervals[i][1]);
             }
             else{
-                vec.push_back(it);
+                vec.push_back({it[0],it[1]});
                 it=intervals[i];
             }
         }
 
-        vec.push_back(it);
+        vec.push_back({it[0],it[1]});
 
         return vec;
 
