@@ -8,24 +8,30 @@ public:
             return 0;
         }
 
-        int maxi=0;
+        int i=0;
+        int j=0;
 
-        for(int i=0;i<n;i++){
+        unordered_set<char>mp;
+        int maxi=1;
+        while(j<n){
 
-            unordered_set<char>mp;
-
-            for(int j=i;j<n;j++){
-
-                if(mp.find(s[j])!=mp.end()){
-                   
-                    break;
-
-                }
-                 mp.insert(s[j]);
-                 maxi=max(maxi,j-i+1);
-               
+            if(mp.empty()){
+                mp.insert(s[j]);
+                j++;
+            }
+            else if(mp.count(s[j])==0){
+                maxi=max(maxi,j-i+1);
+                mp.insert(s[j]);
+                j++;
 
             }
+            else{
+                mp.erase(s[i]);
+                i++;
+            }
+
+
+
         }
 
         return maxi;
