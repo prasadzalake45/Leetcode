@@ -12,11 +12,15 @@ public:
         int j=0;
 
         unordered_set<char>mp;
-        int maxi=1;
+        int maxi=INT_MIN;
         while(j<n){
 
             if(mp.empty()){
                 mp.insert(s[j]);
+                maxi=max(maxi,j-i+1);
+                
+                
+
                 j++;
             }
             else if(mp.count(s[j])==0){
