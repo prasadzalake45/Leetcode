@@ -5,17 +5,25 @@ public:
         int n=s.size();
 
 
-        vector<int>ans(3,-1);
+        int i=0;
+        int j=0;
+  
+
+        unordered_map<char,int>mp;
 
         int cnt=0;
+        while(j<n){
 
-        for(int i=0;i<n;i++){
+            mp[s[j]]++;
 
-            ans[s[i]-'a']=i;
 
-            if(ans[0]!=-1 && ans[1]!=-1 && ans[2]!=-1){
-                cnt+=(1+min({ans[0],ans[1],ans[2]}));
+            while(mp['a']>0 && mp['b']>0 && mp['c']>0){
+                cnt+=(n-j);
+                mp[s[i]]--;
+                i++;
             }
+            j++;
+
 
         }
 
