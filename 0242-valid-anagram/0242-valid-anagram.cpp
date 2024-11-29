@@ -1,29 +1,29 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        int ns=s.size();
+        int nt=t.size();
 
-        if(s.size()!=t.size()){
+        if(ns!=nt){
             return false;
         }
 
         unordered_map<char,int>mp;
-        
-
-        for(char ch:s){
-            mp[ch]++;
+        for(auto it:s){
+            mp[it]++;
         }
 
-        for(char ch:t){
-            if(mp.find(ch)!=mp.end()){
-                mp[ch]--;
-                if(mp[ch]==0){
-                    mp.erase(ch);
+
+        for(auto it:t){
+            if(mp.find(it)!=mp.end()){
+                mp[it]--;
+                if(mp[it]==0){
+                    mp.erase(it);
                 }
             }
         }
 
 
-        return mp.empty();
-        
+        return mp.size()==0;
     }
 };
