@@ -21,24 +21,24 @@ public:
         while(temp1!=NULL && temp2!=NULL){
 
             if(temp1->val<=temp2->val){
-                cur->next=new ListNode(temp1->val);
+                cur->next=temp1;
                 temp1=temp1->next;
             }
             else{
-                cur->next=new ListNode(temp2->val);
+                cur->next=temp2;
                 temp2=temp2->next;
             }
             cur=cur->next;
         }
 
         while(temp1!=NULL){
-            cur->next=new ListNode(temp1->val);
+            cur->next=temp1;
             temp1=temp1->next;
              cur=cur->next;
 
         }
         while(temp2!=NULL){
-             cur->next=new ListNode(temp2->val);
+             cur->next=temp2;
             temp2=temp2->next;
              cur=cur->next;
 
