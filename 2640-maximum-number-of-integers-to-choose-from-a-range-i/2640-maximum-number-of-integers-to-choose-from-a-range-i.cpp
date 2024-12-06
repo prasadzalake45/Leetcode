@@ -18,22 +18,23 @@ public:
         }
 
 
-       long long  sum=0;
-       int maxi=0;
+       long long sum=0;
 
-        for(int i=0;i<vec.size();i++){
-            for(int j=i;j<vec.size();j++){
-                sum+=vec[j];
+       int cnt=0;
 
-                if(sum<=maxSum){
-                    maxi=max(maxi,j-i+1);
-                }
-               
-                
-            }
-        }
-      
-        return maxi;
+       for(auto num:vec){
+           sum+=num;
+
+           if(sum<=maxSum){
+              cnt++;
+            
+           }
+           else{
+            break;
+           }
+       }
+
+       return cnt;
         
 
         
