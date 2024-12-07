@@ -1,14 +1,27 @@
 class Solution {
 public:
 
-    bool canWeDo(vector<int>& nums, int prn, int maxOperations) {
-        long long cnt = 0;
-        for (int balls : nums) {
-            if (balls > prn) {
-                cnt += (balls - 1) / prn;
+    bool canWeDo(vector<int>& nums, int mid, int maxOperations) {
+
+        long long total=0;
+
+        for(int i=0;i<nums.size();i++){
+            int ops=nums[i]/mid;
+
+            if(nums[i]%mid==0){
+                ops-=1;
             }
+
+            total+=ops;
+
         }
-        return  cnt <= maxOperations;
+
+        if(total>maxOperations){
+            return false;
+        }
+
+        return true;
+        
     }
     int minimumSize(vector<int>& nums, int maxOperations) {
         
