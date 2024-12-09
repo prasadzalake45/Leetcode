@@ -6,12 +6,12 @@ public:
         int n=nums.size();
 
         vector<int>checkParity(n,0);
-        int cnt=1;
+    
 
         for(int i=1;i<n;i++){
             if(nums[i]%2==nums[i-1]%2){
-                checkParity[i]=cnt;
-                cnt++;
+                checkParity[i]=checkParity[i-1]+1;
+              
 
             }
             else{
