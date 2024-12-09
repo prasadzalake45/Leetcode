@@ -2,46 +2,45 @@ class Solution {
 public:
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
 
+   int n=nums.size();
 
-        int n=nums.size();
+   vector<int>ans(n,0);
 
-        vector<int>checkParity(n,0);
+   int i=0;
+   int j=0;
+
+   while(i<n){
+
+    if(j<i){
+        j=i;
+    }
+
+    while(j+1<n && nums[j]%2!=nums[j+1]%2 ){
+        j++;
+
+    }
+
+    ans[i]=j;
+    i++;
     
 
-        for(int i=1;i<n;i++){
-            if(nums[i]%2==nums[i-1]%2){
-                checkParity[i]=checkParity[i-1]+1;
-              
+   }
+    vector<bool>res;
+   for(int i=0;i<queries.size();i++){
+    int start=queries[i][0];
+    int end=queries[i][1];
 
-            }
-            else{
-                checkParity[i]=checkParity[i-1];
+    if(ans[start]>=end){
+        res.push_back(true);
+    }
+    else{
+        res.push_back(false);
+    }
 
-            }
-        }
 
-        for(int i=0;i<checkParity.size();i++){
-            cout<<checkParity[i]<<" ";
-        }
+   }
 
-        vector<bool>result;
-        for(int i=0;i<queries.size();i++){
-            int start=queries[i][0];
-            int end=queries[i][1];
-            
-
-            int ans=checkParity[end]-checkParity[start];
-            if(ans==0){
-                result.push_back(true);
-                
-            }
-            else{
-                result.push_back(false);
-            }
-        }
-
-        return result;
-
+   return res;
         
     }
 };
