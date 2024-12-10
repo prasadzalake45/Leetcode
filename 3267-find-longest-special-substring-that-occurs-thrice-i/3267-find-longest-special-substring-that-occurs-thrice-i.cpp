@@ -34,9 +34,7 @@ public:
         }
 
 
-        for(auto it:mp){
-            cout<<it.first<<" "<<it.second<<endl;
-        }
+      
 
         int maxi=INT_MIN;
         for(auto it:mp){
