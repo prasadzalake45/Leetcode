@@ -1,6 +1,8 @@
 class Solution {
 public:
     int maximumLength(string s) {
+ 
+        //solved in 18 minutes
 
         unordered_map<string,int>mp;
 
