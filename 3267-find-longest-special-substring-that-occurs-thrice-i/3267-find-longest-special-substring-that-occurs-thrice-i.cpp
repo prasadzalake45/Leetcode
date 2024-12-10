@@ -1,57 +1,43 @@
 class Solution {
 public:
     int maximumLength(string s) {
- 
-        //solved in 18 minutes
 
-        unordered_map<string,int>mp;
+         int n=s.size();
 
-        for(int i=0;i<s.size();i++){
-            string ans="";
-            for(int j=i;j<s.size();j++){
+        map<pair<char,int>,int>mp;
 
-                if(ans.empty()){
-                   ans=ans+s[j];
-                   mp[ans]++;
+        for(int i=0;i<n;i++){
+            char ch=s[i];
+            int l=0;
+
+            for(int j=i;j<n;j++){
+
+                if(s[j]==ch){
+                    l++;
+                    mp[{ch,l}]++;
                 }
-
                 else{
-                    if(ans.back()==s[j]){
-                        ans+=s[j];
-                        mp[ans]++;
-                       
-
-                    }
-                    else{
-                        break;
-                    }
+                    break;
                 }
-                
 
-                
-
-               
-                
             }
         }
 
+        int maxi=0;
 
-      
-
-        int maxi=INT_MIN;
         for(auto it:mp){
-            if(it.second>=3){
-                int one=it.first.length();
-                maxi=max(maxi,one);
-                
+            int fir=it.first.second;
+            int las=it.second;
+
+            if(las>=3 && fir>maxi){
+                maxi=fir;
+
             }
         }
 
-        if(maxi!=INT_MIN){
-            return maxi;
-        }
+       
 
-        return -1;
+        return maxi==0?-1:maxi;
         
     }
 };
