@@ -12,14 +12,15 @@ public:
             int ans=pq.top();
             pq.pop();
             int sqr=floor((double)pow(ans,0.5));
-            cout<<sqr<<" ";
+            
+            
             pq.push(sqr);
         }
 
         long long sum=0;
         while(!pq.empty()){
             sum+=pq.top();
-            cout<<pq.top()<<" ";
+          
             pq.pop();
         }
 
