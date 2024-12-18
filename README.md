@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prasadzalake45/Leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/prasadzalake45/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1755-defuse-the-bomb](https://github.com/prasadzalake45/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/prasadzalake45/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/prasadzalake45/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1078-remove-outermost-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/prasadzalake45/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/prasadzalake45/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/prasadzalake45/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -485,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1002-maximum-width-ramp](https://github.com/prasadzalake45/Leetcode/tree/master/1002-maximum-width-ramp) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/prasadzalake45/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Enumeration
 |  |
 | ------- |
