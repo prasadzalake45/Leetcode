@@ -13,39 +13,36 @@ class Solution {
 public:
 
    int countSwapsToSort(vector<int>& arr) {
-        int n = arr.size();
-        vector<pair<int, int>> pairedArray(n);
+        int swaps=0;
+        vector<int>sortedArray(arr.begin(),arr.end());
+        sort(sortedArray.begin(),sortedArray.end());
+        
 
-        // Pair values with their original indices
-        for (int i = 0; i < n; ++i) {
-            pairedArray[i] = {arr[i], i};
+        unordered_map<int,int>mp;
+        for(int i=0;i<arr.size();i++){
+            mp[arr[i]]=i;
+
         }
 
-        // Sort pairs based on the values
-        sort(pairedArray.begin(), pairedArray.end());
 
-        // Count swaps
-        vector<bool> visited(n, false);
-        int swaps = 0;
-
-        for (int i = 0; i < n; ++i) {
-            if (visited[i] || pairedArray[i].second == i) continue;
-
-            int cycleSize = 0;
-            int j = i;
-
-            while (!visited[j]) {
-                visited[j] = true;
-                j = pairedArray[j].second;
-                cycleSize++;
+        for(int i=0;i<arr.size();i++){
+            if(arr[i]==sortedArray[i]){
+                continue;
             }
 
-            if (cycleSize > 1) {
-                swaps += (cycleSize - 1);
+            else{
+
+                int curIdx=mp[sortedArray[i]];
+                mp[arr[i]]=curIdx;
+                swap(arr[curIdx],arr[i]);
+                swaps++;
             }
         }
+       return swaps;
 
-        return swaps;
+
+
+
 }
     int minimumOperations(TreeNode* root) {
 
