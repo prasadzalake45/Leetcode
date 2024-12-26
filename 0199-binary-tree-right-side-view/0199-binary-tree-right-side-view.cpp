@@ -11,37 +11,33 @@
  */
 class Solution {
 public:
+
+void preorder(TreeNode* root,int level,vector<int>&ans){
+
+    if(root==NULL){
+        return;
+    }
+
+    if(ans.size()<level){
+        ans.push_back(root->val);
+
+    }
+
+    preorder(root->right,level+1,ans);
+    preorder(root->left,level+1,ans);
+
+}
     vector<int> rightSideView(TreeNode* root) {
 
-        if(root==NULL){
-            return {};
-        }
-
-        queue<TreeNode*>q;
-        q.push(root);
-
+        
         vector<int>ans;
 
-        while(!q.empty()){
-            int size=q.size();
-            TreeNode* node=NULL;
+        preorder(root,1,ans);
 
-            for(int i=0;i<size;i++){
-                node=q.front();
-                q.pop();
+       
 
-                if(node->left){
-                    q.push(node->left);
-                }
-                if(node->right){
-                    q.push(node->right);
-                }
 
-                
-            }
-            ans.push_back(node->val);
-        }
-        
         return ans;
+        
     }
 };
