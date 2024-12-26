@@ -24,22 +24,22 @@ public:
 
         while(!q.empty()){
             int size=q.size();
+            TreeNode* node=NULL;
 
             for(int i=0;i<size;i++){
-                auto it=q.front();
+                node=q.front();
                 q.pop();
 
-                if(it->left){
-                    q.push(it->left);
+                if(node->left){
+                    q.push(node->left);
                 }
-                if(it->right){
-                    q.push(it->right);
+                if(node->right){
+                    q.push(node->right);
                 }
 
-                if(i==size-1){
-                    ans.push_back(it->val);
-                }
+                
             }
+            ans.push_back(node->val);
         }
         
         return ans;
