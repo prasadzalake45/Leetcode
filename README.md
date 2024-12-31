@@ -434,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/prasadzalake45/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prasadzalake45/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/prasadzalake45/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prasadzalake45/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/prasadzalake45/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -494,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prasadzalake45/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/prasadzalake45/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/prasadzalake45/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prasadzalake45/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/prasadzalake45/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
