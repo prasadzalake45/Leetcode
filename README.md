@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/prasadzalake45/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/prasadzalake45/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/prasadzalake45/Leetcode/tree/master/2411-spiral-matrix-iv) |
+| [2465-shifting-letters-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/prasadzalake45/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/prasadzalake45/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/prasadzalake45/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
+| [2465-shifting-letters-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/prasadzalake45/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3427-special-array-ii](https://github.com/prasadzalake45/Leetcode/tree/master/3427-special-array-ii) |
 ## String
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/prasadzalake45/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2300-construct-string-with-repeat-limit](https://github.com/prasadzalake45/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2465-shifting-letters-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/prasadzalake45/Leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2755-extra-characters-in-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
