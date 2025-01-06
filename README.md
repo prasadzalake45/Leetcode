@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-defuse-the-bomb](https://github.com/prasadzalake45/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/prasadzalake45/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prasadzalake45/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/prasadzalake45/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2164-two-best-non-overlapping-events](https://github.com/prasadzalake45/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prasadzalake45/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 | [2465-shifting-letters-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/prasadzalake45/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prasadzalake45/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/prasadzalake45/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/prasadzalake45/Leetcode/tree/master/2032-largest-odd-number-in-string) |
