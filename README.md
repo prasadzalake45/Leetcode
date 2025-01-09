@@ -516,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prasadzalake45/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/prasadzalake45/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -541,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prasadzalake45/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/prasadzalake45/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -585,4 +587,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/prasadzalake45/Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/prasadzalake45/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
