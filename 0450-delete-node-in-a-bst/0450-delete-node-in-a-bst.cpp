@@ -17,56 +17,35 @@ public:
             return NULL;
         }
 
-        if(root->val==key){
-            return helper(root);
+        if(key<root->val){
+            root->left=deleteNode(root->left,key);
         }
-        TreeNode* dummy=root;
-        while(root!=NULL){
-            if(root->val>key){
-                if(root->left!=NULL && root->left->val==key){
-                    root->left=helper(root->left);
-                    break;
-                }
-                else{
-                    root=root->left;
-                }
-            }
-            else{
-                if(root->right!=NULL && root->right->val==key){
-                    root->right=helper(root->right);
-                    break;
-                }
-                else{
-                    root=root->right;
-                }
-            }
+
+        else if(key>root->val){
+            root->right=deleteNode(root->right,key);
         }
-        return dummy;
+        else{
+            //not having child or either one child
+
+            if(!root->left){
+                return root->right;
+
+            }
+            if(!root->right){
+                return root->left;
+
+            }
+
+            //having both child
+            TreeNode* suc=root->right;
+            while(suc->left){
+                suc=suc->left;
+            }
+
+            root->val=suc->val;
+            root->right=deleteNode(root->right,suc->val);
+        }
+        return root;
         
-    }
-    TreeNode* helper(TreeNode* root){
-        if(root->left==NULL){
-            return root->right;
-        }
-
-        else if(root->right==NULL){
-            return root->left;
-        }
-
-        TreeNode* rightChild=root->right;
-
-        TreeNode* lastrightChild=findLast(root->left);
-        lastrightChild->right=rightChild;
-
-        return root->left;
-    }
-
-    TreeNode* findLast(TreeNode* root){
-        if(root->right==NULL){
-            return root;
-
-
-        }
-        return findLast(root->right);
     }
 };
