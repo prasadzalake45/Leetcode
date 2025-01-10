@@ -18,10 +18,10 @@ public:
             return 0;
         }
 
-        int lh=preorder(root->left);
-        int rh=preorder(root->right);
+        // int lh=preorder(root->left);
+        // int rh=preorder(root->right);
 
-        return 1+max(lh,rh);
+        return 1+max(preorder(root->left),preorder(root->right));
 
 
 
