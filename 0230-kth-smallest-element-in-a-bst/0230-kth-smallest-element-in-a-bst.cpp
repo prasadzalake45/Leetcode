@@ -24,7 +24,7 @@ public:
         if(k==0){
             result=root->val;
             
-            return;
+           
         }
 
         inorder(root->right,k,result);
