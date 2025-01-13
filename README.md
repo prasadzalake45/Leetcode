@@ -496,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/prasadzalake45/Leetcode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/prasadzalake45/Leetcode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/prasadzalake45/Leetcode/tree/master/1827-invalid-tweets) |
+| [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/prasadzalake45/Leetcode/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/prasadzalake45/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 ## Design
 |  |
