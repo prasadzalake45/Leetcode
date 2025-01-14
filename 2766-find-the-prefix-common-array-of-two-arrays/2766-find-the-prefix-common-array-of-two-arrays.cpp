@@ -4,23 +4,28 @@ public:
 
         int n=A.size();
 
-        unordered_set<int>s1;
-        unordered_set<int>s2;
+        unordered_map<int,int>mp;
 
         vector<int>ans(n);
 
+        
+       int cnt=0;
         for(int i=0;i<n;i++){
-            s1.insert(A[i]);
-            s2.insert(B[i]);
+            mp[A[i]]++;
+
+           if(mp[A[i]]==2){
+            cnt++;
+
+           }
+
+           mp[B[i]]++;
+
+           if(mp[B[i]]==2){
+            cnt++;
+
+           }
 
 
-            int cnt=0;
-
-            for(auto it:s1){
-                if(s2.count(it)!=0){
-                    cnt++;
-                }
-            }
 
             ans[i]=cnt;
 
