@@ -5,21 +5,21 @@ public:
         int n1=nums1.size();
         int n2=nums2.size();
 
-        unordered_map<int,long>mp;
+        int XOR=0;
 
-        for(auto it:nums1){
-            mp[it]+=n2;
+        if(n1%2!=0){ 
+
+            for(int& num:nums2){
+                XOR^=num;
+            }
+
+
+
         }
 
-        for(auto it:nums2){
-            mp[it]+=n1;
-        }
-
-         int XOR=0;
-        for(auto it:mp){
-            if(it.second%2==1){
-                XOR=XOR^it.first;
-               
+        if(n2%2!=0){
+            for(int& num:nums1){
+                XOR^=num;
             }
         }
 
