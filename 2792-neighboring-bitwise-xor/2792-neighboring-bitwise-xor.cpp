@@ -5,7 +5,7 @@ public:
 
 
         for(int i=0;i<derived.size();i++){
-            XOR=XOR^derived[i];
+            XOR^=derived[i];
         }
 
        if(XOR==0){
