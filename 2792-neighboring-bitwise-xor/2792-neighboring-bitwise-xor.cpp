@@ -8,6 +8,10 @@ public:
             XOR=XOR^derived[i];
         }
 
-        return XOR==0;
+       if(XOR==0){
+        return true;
+       }
+
+       return false;
     }
 };
