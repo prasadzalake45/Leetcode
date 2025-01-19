@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/prasadzalake45/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0303-range-sum-query-immutable](https://github.com/prasadzalake45/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0407-trapping-rain-water-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/prasadzalake45/Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/prasadzalake45/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0407-trapping-rain-water-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [1304-longest-happy-string](https://github.com/prasadzalake45/Leetcode/tree/master/1304-longest-happy-string) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/prasadzalake45/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/prasadzalake45/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/prasadzalake45/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/prasadzalake45/Leetcode/tree/master/0079-word-search) |
+| [0407-trapping-rain-water-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/prasadzalake45/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/prasadzalake45/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -627,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/prasadzalake45/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0407-trapping-rain-water-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/prasadzalake45/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/prasadzalake45/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prasadzalake45/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
