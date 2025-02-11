@@ -349,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prasadzalake45/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/prasadzalake45/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/prasadzalake45/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2032-largest-odd-number-in-string](https://github.com/prasadzalake45/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/prasadzalake45/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/prasadzalake45/Leetcode/tree/master/0067-add-binary) |
 | [0906-walking-robot-simulation](https://github.com/prasadzalake45/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/prasadzalake45/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/prasadzalake45/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/prasadzalake45/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/prasadzalake45/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/prasadzalake45/Leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -424,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/prasadzalake45/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/prasadzalake45/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/prasadzalake45/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/prasadzalake45/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/prasadzalake45/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
