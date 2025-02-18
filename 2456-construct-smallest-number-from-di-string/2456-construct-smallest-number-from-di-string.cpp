@@ -1,32 +1,44 @@
 class Solution {
 public:
-
-   bool matchedPattern(string& num,string& pattern){
-    for(int i=0;i<pattern.size();i++){
-        if((pattern[i]=='I' && num[i]>num[i+1]) ||(pattern[i]=='D' && num[i]<num[i+1])){
-          return false;
-        }
-    }
-
-    return true;
-   }
     string smallestNumber(string pattern) {
 
-        int n=pattern.size();
-        string num="";
+        int cnt=1;
+        string result="";
 
-        for(int i=1;i<=n+1;i++){
-            num.push_back(i+'0');
+        stack<int>st;
+
+        for(int i=0;i<pattern.size();i++){
+            
+            if(pattern[i]=='I'){
+                st.push(cnt++);
 
 
+              
+                while(!st.empty()){
+                    result+=to_string(st.top());
+                    st.pop();
+                }
+            }
+            else{
+                
+                
+                st.push(cnt++);
+            }
+          
+               
         }
 
-        while(!matchedPattern(num,pattern)){
-            next_permutation(begin(num),end(num));
+        st.push(cnt);
+        while(!st.empty()){
+            result+=to_string(st.top());
+            st.pop();
         }
 
 
-        return num;
+        return result;
+
+
+    
         
     }
 };
