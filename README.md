@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/prasadzalake45/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/prasadzalake45/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/prasadzalake45/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/prasadzalake45/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/prasadzalake45/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -578,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/prasadzalake45/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/prasadzalake45/Leetcode/tree/master/0859-design-circular-deque) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2434-design-a-number-container-system](https://github.com/prasadzalake45/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Segment Tree
 |  |
@@ -625,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0998-check-completeness-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/prasadzalake45/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/prasadzalake45/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -663,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0998-check-completeness-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/prasadzalake45/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/prasadzalake45/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -689,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/prasadzalake45/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
