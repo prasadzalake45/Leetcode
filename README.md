@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/prasadzalake45/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1207-delete-nodes-and-return-forest](https://github.com/prasadzalake45/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/prasadzalake45/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/prasadzalake45/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prasadzalake45/Leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/prasadzalake45/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/prasadzalake45/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/prasadzalake45/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/prasadzalake45/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/prasadzalake45/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prasadzalake45/Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
