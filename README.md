@@ -602,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2793-count-the-number-of-complete-components](https://github.com/prasadzalake45/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Database
 |  |
 | ------- |
@@ -753,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2564-most-profitable-path-in-a-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2793-count-the-number-of-complete-components](https://github.com/prasadzalake45/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -798,6 +800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/prasadzalake45/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2793-count-the-number-of-complete-components](https://github.com/prasadzalake45/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Shortest Path
 |  |
 | ------- |
@@ -807,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/prasadzalake45/Leetcode/tree/master/0547-number-of-provinces) |
 | [1396-count-servers-that-communicate](https://github.com/prasadzalake45/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [2793-count-the-number-of-complete-components](https://github.com/prasadzalake45/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Topological Sort
 |  |
 | ------- |
