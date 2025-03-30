@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/prasadzalake45/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/prasadzalake45/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0345-reverse-vowels-of-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0633-sum-of-square-numbers](https://github.com/prasadzalake45/Leetcode/tree/master/0633-sum-of-square-numbers) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prasadzalake45/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/prasadzalake45/Leetcode/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/prasadzalake45/Leetcode/tree/master/0908-middle-of-the-linked-list) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/prasadzalake45/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/prasadzalake45/Leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0633-sum-of-square-numbers](https://github.com/prasadzalake45/Leetcode/tree/master/0633-sum-of-square-numbers) |
 | [0729-my-calendar-i](https://github.com/prasadzalake45/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0731-my-calendar-ii) |
 | [0907-koko-eating-bananas](https://github.com/prasadzalake45/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -570,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/prasadzalake45/Leetcode/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/prasadzalake45/Leetcode/tree/master/0189-rotate-array) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0633-sum-of-square-numbers](https://github.com/prasadzalake45/Leetcode/tree/master/0633-sum-of-square-numbers) |
 | [0670-maximum-swap](https://github.com/prasadzalake45/Leetcode/tree/master/0670-maximum-swap) |
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
