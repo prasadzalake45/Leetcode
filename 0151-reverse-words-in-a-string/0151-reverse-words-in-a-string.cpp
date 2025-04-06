@@ -1,27 +1,29 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        
-
-        stringstream ss(s);
-        string word;
         stack<string>st;
+      stringstream ss(s);
+      string word;
 
-        while(ss>>word){
-            st.push(word);
-        }
+      while(ss>>word){
+        st.push(word);
+      }
 
-        string ans="";
-
-        while(!st.empty()){
+      string ans="";
+     while(!st.empty()){
+        if(ans.empty()){
             ans+=st.top();
-            st.pop();
-
-            if(!st.empty()){
-                ans+=" ";
-            }
         }
+        else{
+               ans=ans+" "+st.top();
+        }
+       
+        st.pop();
+      }
 
-        return ans;
+
+    return ans;
+
+        
     }
 };
