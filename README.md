@@ -398,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/0022-generate-parentheses) |
 | [0067-add-binary](https://github.com/prasadzalake45/Leetcode/tree/master/0067-add-binary) |
 | [0079-word-search](https://github.com/prasadzalake45/Leetcode/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/prasadzalake45/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/prasadzalake45/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/prasadzalake45/Leetcode/tree/master/0242-valid-anagram) |
@@ -528,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prasadzalake45/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/prasadzalake45/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/prasadzalake45/Leetcode/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/prasadzalake45/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0494-target-sum) |
@@ -550,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/prasadzalake45/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/prasadzalake45/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/prasadzalake45/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [1160-letter-tile-possibilities](https://github.com/prasadzalake45/Leetcode/tree/master/1160-letter-tile-possibilities) |
