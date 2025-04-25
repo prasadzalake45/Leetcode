@@ -8,37 +8,42 @@ public:
             return 0;
         }
 
+        int maxi=1;
+
+        unordered_set<int>mp;
+
+        // for(int i=0;i<n;i++){
+        //     if(mp.find(s[i])!=mp.end()){
+        //         int ans=mp.size();
+        //         maxi=max(maxi,ans);
+        //         mp.clear();
+
+        //     }
+            
+        //      mp.insert(s[i]);
+        
+        // }
+        // maxi=max(maxi,(int)mp.size());
+
         int i=0;
         int j=0;
 
-        unordered_set<char>mp;
-        int maxi=INT_MIN;
         while(j<n){
-
-            if(mp.empty()){
-                mp.insert(s[j]);
-                maxi=max(maxi,j-i+1);
-                
-                
-
-                j++;
-            }
-            else if(mp.count(s[j])==0){
-                maxi=max(maxi,j-i+1);
-                mp.insert(s[j]);
-                j++;
-
-            }
-            else{
+            while(mp.find(s[j])!=mp.end()){
+                maxi=max(maxi,(int)mp.size());
                 mp.erase(s[i]);
                 i++;
+                
             }
-
-
-
+            mp.insert(s[j]);
+            j++;
         }
 
+        maxi=max(maxi,(int)mp.size());
+
         return maxi;
+
+
         
     }
 };
