@@ -8,17 +8,15 @@ public:
         int j=0;
         unordered_map<int,int>mp;
         int maximum=0;
+        int maxCnt=0;
 
         while(j<n){
 
             mp[s[j]]++;
-            int maxi=0;
-            for(auto it:mp){
-                maxi=max(maxi,it.second);
+           
+            maxCnt=max(maxCnt,mp[s[j]]);
 
-            }
-
-            int req=(j-i+1)-maxi;
+            int req=(j-i+1)-maxCnt;
 
             if(req<=k){
                 maximum=max(maximum,j-i+1);
