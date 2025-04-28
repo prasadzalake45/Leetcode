@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/1524-string-matching-in-an-array) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/prasadzalake45/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/prasadzalake45/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1755-defuse-the-bomb](https://github.com/prasadzalake45/Leetcode/tree/master/1755-defuse-the-bomb) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/prasadzalake45/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/prasadzalake45/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prasadzalake45/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1755-defuse-the-bomb](https://github.com/prasadzalake45/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/prasadzalake45/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -388,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/prasadzalake45/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prasadzalake45/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
