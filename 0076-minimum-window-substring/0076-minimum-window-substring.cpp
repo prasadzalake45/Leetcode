@@ -17,7 +17,7 @@ public:
         int left=0;
         int right=0;
         int minlen=INT_MAX;
-        int startIndex=-1;
+        int startIndex=0;
         int cnt=0;
 
         while(right<n){
