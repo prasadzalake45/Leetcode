@@ -17,19 +17,19 @@ public:
         int left=0;
         int right=0;
         int minlen=INT_MAX;
-        int startIndex=0;
-        int cnt=t.size();
+        int startIndex=-1;
+        int cnt=0;
 
         while(right<n){
 
             if(hash[s[right]]>0){
-                cnt--;
+                cnt++;
                 
             }
             hash[s[right]]--;
             right++;
 
-            while(cnt==0){
+            while(cnt==t.size()){
                 if(right-left<minlen){
                     minlen=right-left;
                     startIndex=left;
@@ -38,7 +38,7 @@ public:
                 hash[s[left]]++;
 
                 if(hash[s[left]]>0){
-                    cnt++;
+                    cnt--;
                    
                 }
                  left++;
