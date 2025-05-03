@@ -6,18 +6,16 @@ public:
         int i=0;
         int j=0;
         int cnt=0;
-        unordered_map<char,int>mp;
+        int store[3]={0};
 
         while(j<n){
 
-            mp[s[j]]++;
+            store[s[j]-'a']++;
 
-            while(mp['a']>0 && mp['b']>0 && mp['c']>0){
+            while(store[0]>0 && store[1]>0 && store[2]>0){
                 cnt+=(n-j);
-                mp[s[i]]--;
-                if(mp[s[i]]==0){
-                    mp.erase(s[i]);
-                }
+                store[s[i]-'a']--;
+               
                 i++;
             }
             j++;
