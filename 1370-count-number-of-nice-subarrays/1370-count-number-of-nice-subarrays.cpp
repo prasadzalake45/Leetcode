@@ -1,26 +1,42 @@
 class Solution {
 public:
-    int numberOfSubarrays(vector<int>& nums, int k) {
 
-        unordered_map<int,int>mp;
+    int helper(vector<int>&nums,int k){
+        
+        int n=nums.size();
 
-        int sum=0;
+        int i=0;
+        int j=0;
+
+        int odd=0;
+
         int cnt=0;
-        mp[0]=1;
 
-        for(int i=0;i<nums.size();i++){
-            if(nums[i]%2!=0){
-                sum++;
+        while(j<n){
+
+
+            if(nums[j]%2==1){
+                odd++;
             }
 
-            if(mp.find(sum-k)!=mp.end()){
-                cnt+=mp[sum-k];
+
+            while(odd>k){
+                if(nums[i]%2==1){
+                    odd--;
+                }
+                i++;
+
             }
 
-            mp[sum]++;
+            cnt+=(j-i+1);
+            j++;
+
+            
         }
-
         return cnt;
+    }
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        return helper(nums,k)-helper(nums,k-1);
         
     }
 };
