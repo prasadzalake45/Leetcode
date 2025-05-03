@@ -16,16 +16,32 @@ public:
         if(root==NULL){
             return;
         }
-        answer.push_back(root->val);
-        helper(root->left,answer);
-        helper(root->right,answer);
 
-    }
-    vector<int> preorderTraversal(TreeNode* root) {
+        stack<TreeNode*>st;
+        st.push(root);
+      
+        while(!st.empty()){
+            TreeNode * cur=st.top();
+            st.pop();
 
-        vector<int>answer;
-        helper(root,answer);
-        return answer;
+            answer.push_back(cur->val);
+
+            if(cur->right){
+                st.push(cur->right);
+            }
+            if(cur->left){
+                st.push(cur->left);
+            }
+
+        }
+
         
     }
+    vector<int> preorderTraversal(TreeNode* root) {
+        vector<int>answer;
+        helper(root,answer);    
+
+        return answer;    
+    }
+
 };
