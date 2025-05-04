@@ -2,27 +2,28 @@ class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
 
-        // sort(dominoes.begin(),dominoes.end());
+        int n=dominoes.size();
 
-        int n = dominoes.size();
+        int count[100]={0};
 
-        int cnt = 0;
+        int ans=0;
 
-        for (int i = 0; i < n; i++) {
 
-            for (int j = i+1; j < n; j++) {
+        for(int i=0;i<n;i++){
 
-                int a = dominoes[i][0];
-                int b = dominoes[i][1];
-                int c = dominoes[j][0];
-                int d = dominoes[j][1];
+            int a=dominoes[i][0];
+            int b=dominoes[i][1];
 
-                if ((a == c && b == d) || (a == d && b == c)) {
-                    cnt++;
-                }
-            }
+            int key=min(a,b)*10+max(a,b);
+
+            ans+=count[key];
+            count[key]++;
+
         }
 
-        return cnt;
+        return ans;
+
+
+        
     }
 };
