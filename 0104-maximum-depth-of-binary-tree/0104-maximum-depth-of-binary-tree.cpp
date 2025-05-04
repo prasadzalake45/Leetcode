@@ -12,23 +12,18 @@
 class Solution {
 public:
 
-    int  preorder(TreeNode* root){
-
+    int helper(TreeNode* root){
         if(root==NULL){
             return 0;
         }
+        int lh=helper(root->left);
+        int rh=helper(root->right);
 
-        // int lh=preorder(root->left);
-        // int rh=preorder(root->right);
-
-        return 1+max(preorder(root->left),preorder(root->right));
-
-
-
-
-      }
+        return 1+max(lh,rh);
+    }
     int maxDepth(TreeNode* root) {
+    int ans=helper(root);
+    return ans;
         
-        return preorder(root);
     }
 };
