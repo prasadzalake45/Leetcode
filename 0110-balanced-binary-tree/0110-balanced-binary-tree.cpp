@@ -10,20 +10,18 @@
  * };
  */
 class Solution {
-public: 
+public:
 
-    int preorder(TreeNode* root){
-
+    int helper(TreeNode* root){
         if(root==NULL){
             return 0;
         }
 
-        int lh=preorder(root->left);
-        int rh=preorder(root->right);
-
+        int lh=helper(root->left);
         if(lh==-1){
             return -1;
         }
+        int rh=helper(root->right);
 
         if(rh==-1){
             return -1;
@@ -34,22 +32,15 @@ public:
         }
 
         return 1+max(lh,rh);
-
-
-     }
+    }
     bool isBalanced(TreeNode* root) {
 
-        int ans=preorder(root);
+        int ans=helper(root);
 
         if(ans==-1){
             return false;
         }
-
         return true;
-
-
-
-
         
     }
 };
