@@ -12,22 +12,18 @@
 class Solution {
 public:
 
-    void traversal(TreeNode* root,int& cnt){
+    int helper(TreeNode* root){
         if(root==NULL){
-            return;
+            return 0;
         }
-        cnt++;
-        traversal(root->left,cnt);
-        traversal(root->right,cnt);
+
+        int lh=helper(root->left);
+        int rh=helper(root->right);
+        return 1+lh+rh;
     }
     int countNodes(TreeNode* root) {
 
-        int cnt=0;
-        traversal(root,cnt);
-        return cnt;
-
-       
-
+        return helper(root);
         
     }
 };
