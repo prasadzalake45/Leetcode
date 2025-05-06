@@ -31,13 +31,17 @@ public:
                 TreeNode* node=q.front();
                 q.pop();
 
-                if(leftToRight==true){
-                    vec[i]=node->val;
+                // if(leftToRight==true){
+                //     vec[i]=node->val;
 
-                }
-                else if(leftToRight==false){
-                    vec[size-i-1]=node->val;
-                }
+                // }
+                // else if(leftToRight==false){
+                //     vec[size-i-1]=node->val;
+                // }
+
+                int ind=leftToRight?i:size-i-1;
+
+                vec[ind]=node->val;
 
                 if(node->left){
                     q.push(node->left);
