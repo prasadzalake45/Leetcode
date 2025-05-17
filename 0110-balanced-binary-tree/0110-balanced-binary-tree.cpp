@@ -12,7 +12,8 @@
 class Solution {
 public:
 
-    int helper(TreeNode* root){
+    auto helper(TreeNode* root){
+
         if(root==NULL){
             return 0;
         }
@@ -36,11 +37,19 @@ public:
     bool isBalanced(TreeNode* root) {
 
         int ans=helper(root);
+        cout<<ans<<endl;
 
         if(ans==-1){
             return false;
         }
+
         return true;
+
+        
+
+        
+        
+
         
     }
 };
