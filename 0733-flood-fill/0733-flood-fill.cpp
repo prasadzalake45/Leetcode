@@ -1,9 +1,16 @@
 class Solution {
 public:
-   void bfs(vector<vector<int>>&image,int sr,int sc,int color,vector<vector<bool>>&visited){
+   void bfs(vector<vector<int>>&image,int sr,int sc,int color){
       queue<pair<int,int>>q;
       q.push({sr,sc});
-      visited[sr][sc]=true;
+      int oldColor=image[sr][sc];
+
+      if(oldColor==color){
+        return;
+      }
+      image[sr][sc]=color;
+     
+      
 
 
       while(!q.empty()){
@@ -18,14 +25,14 @@ public:
           int newX=x+dx[i];
           int newY=y+dy[i];
 
-          if(newX>=0 && newX<image.size() && newY>=0 && newY<image[0].size() && image[newX][newY]==image[x][y] && !visited[newX][newY]){
-           
+          if(newX>=0 && newX<image.size() && newY>=0 && newY<image[0].size() && image[newX][newY]==oldColor){
+            image[newX][newY]=color;
             q.push({newX,newY});
-            visited[newX][newY]=true;
+           
           }
 
         }
-        image[x][y]=color;
+        
 
       }
    }
@@ -33,8 +40,8 @@ public:
 
       int m=image.size();
       int n=image[0].size();
-      vector<vector<bool>>visited(m,vector<bool>(n,false));
-      bfs(image,sr,sc,color,visited);
+     
+      bfs(image,sr,sc,color);
       return image;
         
     }
