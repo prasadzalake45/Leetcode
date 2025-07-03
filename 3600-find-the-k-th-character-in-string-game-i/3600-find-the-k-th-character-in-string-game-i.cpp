@@ -2,20 +2,34 @@ class Solution {
 public:
     char kthCharacter(int k) {
 
-        string word="a";
+      string word="a";
 
-        while(word.size()<k){
-            string newStr="";
 
-            for(char ch:word){
-                char next=(ch=='z')?'a':ch+1;
-                newStr+=next;
-            }
 
-            word+=newStr;
+      
+
+      while(word.size()<=k){
+
+
+        int ans=word.size();
+        string a="";
+
+        for(int i=0;i<ans;i++){
+          a+=word[i]+1;
+
+
         }
 
-        return word[k-1];
+        word=word+a;
+        
+     
+         
+
+
+        }
+      cout<<word<<endl;
+
+      return word[k-1];
         
     }
 };
