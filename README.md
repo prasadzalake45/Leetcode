@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prasadzalake45/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/prasadzalake45/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/prasadzalake45/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2107-find-unique-binary-string](https://github.com/prasadzalake45/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2164-two-best-non-overlapping-events](https://github.com/prasadzalake45/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/prasadzalake45/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/prasadzalake45/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/prasadzalake45/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2107-find-unique-binary-string](https://github.com/prasadzalake45/Leetcode/tree/master/2107-find-unique-binary-string) |
@@ -734,6 +736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/prasadzalake45/Leetcode/tree/master/0859-design-circular-deque) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/prasadzalake45/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Segment Tree
 |  |
