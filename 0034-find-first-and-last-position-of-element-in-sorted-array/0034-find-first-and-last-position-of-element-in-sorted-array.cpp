@@ -5,23 +5,26 @@ public:
         int n=nums.size();
 
        int first=-1;
+       int cnt=0;
        int last=-1;
+
+
         for(int i=0;i<n;i++){
-            if(nums[i]==target){
+            if(nums[i]==target && cnt==0){
 
                 first=i;
-                break;
+                last=i;
+                cnt++;
+                
 
+            }
+            else if(nums[i]==target){
+                last=i;
             }
         }
 
       
 
-        for(int i=0;i<n;i++){
-            if(nums[i]==target){
-                last=i;
-            }
-        }
         
         return {first,last};
     }
