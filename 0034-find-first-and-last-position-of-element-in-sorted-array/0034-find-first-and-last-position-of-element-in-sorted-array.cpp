@@ -10,17 +10,18 @@ public:
 
 
         for(int i=0;i<n;i++){
-            if(nums[i]==target && cnt==0){
+            if(nums[i]==target){
 
-                first=i;
+                if(first==-1){
+                    first=i;
+                }
                 last=i;
-                cnt++;
+
+    
                 
 
             }
-            else if(nums[i]==target){
-                last=i;
-            }
+            
         }
 
       
