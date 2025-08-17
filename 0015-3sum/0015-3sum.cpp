@@ -1,51 +1,66 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        int n=nums.size();
 
-        sort(nums.begin(),nums.end());
+      sort(nums.begin(),nums.end());
 
-        vector<vector<int>>ans;
+      vector<vector<int>>answer;
 
-        for(int i=0;i<n-2;i++){
-            int start=i+1;
-            int end=n-1;
+      int n=nums.size();
 
-            if(i>0 && nums[i]==nums[i-1]){
-                continue;
+      for(int i=0;i<n-2;i++){
+        if(i>0 && nums[i]==nums[i-1]){
+            continue;
+          }
+        int left=i+1;
+        int right=n-1;
+
+
+
+        while(left<right){
+
+          
+
+          int sum=nums[i]+nums[left]+nums[right];
+
+
+          if(sum==0){
+
+            answer.push_back({nums[i],nums[left],nums[right]});
+            
+            while(left<right && nums[left]==nums[left+1]){
+              left++;
+            }
+             while(left<right && nums[right]==nums[right-1]){
+              right--;
             }
 
-            while(start<end){
-                if(nums[i]+nums[start]+nums[end]==0){
-                    ans.push_back({nums[i],nums[start],nums[end]});
 
-                      while (start< end && nums[start] == nums[start+ 1]) {
-                        start++;
-                    }
-                    while (start<end && nums[end] == nums[end - 1]) {
-                        end--;
-                    }
-                    start++;
-                    end--;
-                    
-                }
-                else if(nums[i]+nums[start]+nums[end]>0){
-                    end--;
-                }
-                else{
-                    start++;
-                }
-            }
+            left++;
+            right--;
+
+
+
+          }
+          else if(sum<0){
+            left++;
+
+          }
+          else{
+            right--;
+          }
+
 
 
         }
 
-        // vector<vector<int>>sll;
-        // for(auto it:ans){
-        //     sll.push_back(it);
-        // }
 
-        return ans;
+
+
+
+      }
+
+      return answer;
         
     }
 };
