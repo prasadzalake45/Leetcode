@@ -3,47 +3,28 @@ public:
     void moveZeroes(vector<int>& nums) {
 
 
-        int n=nums.size();
+      int n=nums.size();
 
-        //first zero element
-        int first=-1;
+      int slow=0;
+      int fast=0;
 
-        for(int i=0;i<n;i++){
-            if(nums[i]==0){
-                first=i;
-                break;
 
-                
-            }
+      while(fast<n){
+        if(nums[fast]!=0){
+          nums[slow]=nums[fast];
+          slow++;
         }
 
-        if(first==-1){
-            return;
-        }
+        fast++;
+      }
 
 
-        int i=first;
-        int j=i+1;
+      while(slow<n){
+        nums[slow]=0;
+        slow++;
+      }
 
-        while(j<n){
-            if(nums[j]==0){
-                j++;
-            }
-            else{
-                swap(nums[i],nums[j]);
-                i++;
-                j++;
-            }
-        }
-
-    
-    
-
-
-
-        
-        
-        
+      
         
     }
 };
