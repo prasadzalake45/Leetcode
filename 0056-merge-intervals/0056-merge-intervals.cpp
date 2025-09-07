@@ -2,31 +2,39 @@ class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
 
-       vector<vector<int>>answer;
-        sort(intervals.begin(),intervals.end());
+      int n=intervals.size();
 
-        int start=intervals[0][0];
-        int end=intervals[0][1];
+      sort(intervals.begin(),intervals.end());
+      vector<vector<int>>answer;
 
-       int n=intervals.size();
+      int first1=intervals[0][0];
+      int first2=intervals[0][1];
 
-        for(int i=1;i<n;i++){
 
-            if(end>=intervals[i][0]){
-                end=max(end,intervals[i][1]);
-                
-            }
-            else{
-                answer.push_back({start,end});
-                start=intervals[i][0];
-                end=intervals[i][1];
+      for(int i=1;i<n;i++){
+        int second1=intervals[i][0];
+        int second2=intervals[i][1];
 
-            }
+        if(first2>=second1){
+          first1=min(first1,second1);
+          first2=max(first2,second2);
         }
+        else{
+          answer.push_back({first1,first2});
+          first1=intervals[i][0];
+          first2=intervals[i][1];
 
-        answer.push_back({start,end});
 
-        return answer;
+        }
+      }
+                answer.push_back({first1,first2});
+
+      
+
+
+
+
+      return answer;
         
     }
 };
