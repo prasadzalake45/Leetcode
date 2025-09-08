@@ -691,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/prasadzalake45/Leetcode/tree/master/0670-maximum-swap) |
 | [0797-rabbits-in-forest](https://github.com/prasadzalake45/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/prasadzalake45/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/prasadzalake45/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
