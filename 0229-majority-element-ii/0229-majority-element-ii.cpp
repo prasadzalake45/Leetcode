@@ -1,22 +1,66 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        unordered_map<int,int>mp;
 
-         vector<int>answer;
-        int n=nums.size();
+      int n=nums.size();
 
-        for(auto it:nums){
-          mp[it]++;
+      int cand1;
+      int cand2;
+      int cnt1=0;
+      int cnt2=0;
+
+      vector<int>answer;
+
+      for(auto num:nums){
+        if(num==cand1){
+          cnt1++;
+
         }
+        else if(num==cand2){
+          cnt2++;
 
-        for(auto it:mp){
-          if(it.second>n/3){
-            answer.push_back(it.first);
-
-          }
         }
+        else if(cnt1==0){
+          cand1=num;
+          cnt1++;
+        }
+        else if(cnt2==0){
+          cand2=num;
+          cnt2++;
+        }
+        else{
+          cnt1--;
+          cnt2--;
+        }
+      }
 
-        return answer;
+      cout<<cand1<<" "<<cand2<<endl;
+       cnt1=0;
+       cnt2=0;
+      for(auto num:nums){
+        if(num==cand1){
+          cnt1++;
+        }
+        if(num==cand2){
+          cnt2++;
+        }
+      }
+
+
+      int ans=n/3;
+
+      if(cnt1>ans){
+        answer.push_back(cand1);
+
+      }
+      if(cnt2>ans){
+        answer.push_back(cand2);
+
+      }
+       
+       return answer;
+
+
+        
     }
 };
