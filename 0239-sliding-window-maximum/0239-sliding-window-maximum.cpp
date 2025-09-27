@@ -13,7 +13,7 @@ public:
 
         while (j < n) {
              while (!dq.empty() && dq.back() < nums[j]) {
-                    dq.pop_front();
+                    dq.pop_back();
                 }
                 dq.push_back(nums[j]);
             if (j - i+1 < k) {
