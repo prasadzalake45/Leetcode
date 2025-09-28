@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/prasadzalake45/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/prasadzalake45/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/prasadzalake45/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0940-fruit-into-baskets](https://github.com/prasadzalake45/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1002-maximum-width-ramp](https://github.com/prasadzalake45/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/prasadzalake45/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/prasadzalake45/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/prasadzalake45/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/prasadzalake45/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0940-fruit-into-baskets](https://github.com/prasadzalake45/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/prasadzalake45/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/prasadzalake45/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/prasadzalake45/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0594-longest-harmonious-subsequence](https://github.com/prasadzalake45/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
+| [0940-fruit-into-baskets](https://github.com/prasadzalake45/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
