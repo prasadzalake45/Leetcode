@@ -4,26 +4,26 @@ public:
 
         int n=s.size();
 
-
         unordered_map<char,int>mp;
-
-        
         int maxi=INT_MIN;
 
-        int i=0;
-        int j=0;
+        for(int i=0;i<n;i++){
+            for(int j=i;j<n;j++){
 
-        while(j<n){
+                if(!mp.empty() && mp.find(s[j])!=mp.end()){
+                    mp.clear();
+                    break;
 
-            if(!mp.empty() && mp.find(s[j])!=mp.end()){
-                i=max(i,mp[s[j]]+1);
+
+                }
+                else if(mp.find(s[j])==mp.end()){
+                    mp[s[j]]=j;
+                }
+                 
+                maxi=max(maxi,j-i+1);
+
+
             }
-
-            mp[s[j]]=j;
-            maxi=max(maxi,j-i+1);
-            j++;
-
-
         }
 
         if(maxi==INT_MIN){
@@ -31,9 +31,6 @@ public:
         }
 
         return maxi;
-
-
-
         
     }
 };
