@@ -11,42 +11,42 @@
  */
 class Solution {
 public:
-
-void helper(TreeNode* root,vector<int>&answer){
-
-    queue<TreeNode*>q;
-
-    q.push(root);
-
-    while(!q.empty()){
-
-        int siz=q.size();
-
-        for(int i=0;i<siz;i++){
-            TreeNode* node=q.front();
-            q.pop();
-
-            if(i==siz-1){
-                answer.push_back(node->val);
-            }
-
-            if(node->left){
-                q.push(node->left);
-            }
-
-            if(node->right){
-                q.push(node->right);
-            }
-        }
-
-    }
-}
     vector<int> rightSideView(TreeNode* root) {
         if(root==NULL){
             return {};
         }
-        vector<int>answer;
-        helper(root,answer);
-        return answer;       
+
+        queue<TreeNode*>q;
+        q.push(root);
+        vector<int>ans;
+
+        while(!q.empty()){
+            int n=q.size();
+            
+
+            for(int i=0;i<n;i++){
+
+                TreeNode* cur=q.front();
+                q.pop();
+
+                if(i==n-1){
+                    ans.push_back(cur->val);
+                }
+
+                if(cur->left){
+                    q.push(cur->left);
+                }
+
+                if(cur->right){
+                    q.push(cur->right);
+                }
+
+
+
+            }
+        }
+
+        return ans;
+        
     }
 };
