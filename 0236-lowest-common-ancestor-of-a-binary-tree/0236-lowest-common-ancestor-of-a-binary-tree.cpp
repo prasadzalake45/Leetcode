@@ -11,25 +11,16 @@ class Solution {
 public:
     TreeNode* helper(TreeNode* root,TreeNode* p,TreeNode* q){
 
-        if(root==NULL){
-            return NULL;
-        }
-
-        if(root->val==p->val || root->val==q->val){
+        if(root==p|| root==q || root==NULL){
             return root;
         }
         TreeNode* lh=helper(root->left,p,q);
         TreeNode* rh=helper(root->right,p,q);
 
-       if(lh==NULL){
-        return rh;
+       if(lh && rh){
+        return root;
        }
-
-       if(rh==NULL){
-        return lh;
-       }
-
-       return root;
+       return lh? lh:rh;
 
       
 
