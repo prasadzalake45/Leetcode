@@ -1,95 +1,84 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
 public:
-   void findParent(TreeNode* root, TreeNode* target,unordered_map<TreeNode*,TreeNode*>&ParentTrack){
+    void markedParentNode(TreeNode* root,
+                          unordered_map<TreeNode*, TreeNode*>& Parent) {
+        queue<TreeNode*> q;
 
-    queue<TreeNode*>q;
-    q.push(root);
+        q.push(root);
 
-    while(!q.empty()){
+        while (!q.empty()) {
+            int n = q.size();
 
-        TreeNode* node=q.front();
-        q.pop();
+            for (int i = 0; i < n; i++) {
+                TreeNode* cur = q.front();
+                q.pop();
 
-        if(node->left){
-            ParentTrack[node->left]=node;
-            q.push(node->left);
+                if (cur->left) {
+                    Parent[cur->left] = cur;
+                    q.push(cur->left);
+                }
+
+                if (cur->right) {
+                    Parent[cur->right] = cur;
+                    q.push(cur->right);
+                }
+            }
         }
-
-        if(node->right){
-            ParentTrack[node->right]=node;
-            q.push(node->right);
-
-        }
-
     }
-
-   }
-    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-
-       unordered_map<TreeNode*,TreeNode*>ParentTrack;
-
-       findParent(root,target,ParentTrack);
-
-        vector<int>result;
-        unordered_map<TreeNode*,bool>vis;
-        queue<TreeNode*>q;
+    vector<int> helper(TreeNode* root, TreeNode* target, int k) {
+        unordered_map<TreeNode*, TreeNode*> parent;
+        unordered_set<TreeNode*> visited;
+        vector<int> finalAns;
+        markedParentNode(root, parent);
+        queue<TreeNode*> q;
         q.push(target);
-        vis[target]=true;
-        int cur=0;
+        visited.insert(target);
+        int level = 0;
 
-        while(!q.empty()){
-            int size=q.size();
+        while (!q.empty()) {
+            int n = q.size();
 
-            if(cur==k){
+            if (level++ == k) {
                 break;
             }
 
-            cur++;
-
-            for(int i=0;i<size;i++){
-                TreeNode* node=q.front();
+            for (int i = 0; i < n; i++) {
+                TreeNode* cur = q.front();
                 q.pop();
 
-                if(node->left && !vis[node->left]){
-                    q.push(node->left);
-                    vis[node->left]=true;
+                if (!visited.count(cur->left) && cur->left) {
+                    q.push(cur->left);
+                    visited.insert(cur->left);
                 }
 
-                if(node->right && !vis[node->right]){
-                    q.push(node->right);
-                    vis[node->right]=true;
+                if (!visited.count(cur->right) && cur->right) {
+                    q.push(cur->right);
+                    visited.insert(cur->right);
                 }
 
-                if(ParentTrack[node] && !vis[ParentTrack[node]]){
-                    q.push(ParentTrack[node]);
-                    vis[ParentTrack[node]]=true;
+                if (parent.find(cur) != parent.end() && !visited.count(parent[cur])
+                    ) {
+                    q.push(parent[cur]);
+                    visited.insert(parent[cur]);
                 }
-
-
-
-
-
-
+            }
+        }
+        if (q.empty()) {
+            return {};
+        } else {
+            while (!q.empty()) {
+                TreeNode* cur = q.front();
+                q.pop();
+                finalAns.push_back(cur->val);
             }
         }
 
-        while(!q.empty()){
-            TreeNode* n=q.front();
-            q.pop();
-            result.push_back(n->val);
+        return finalAns;
+    }
+    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+        if (root == NULL) {
+            return {};
         }
-
-        return result;
-
-        
+        return helper(root, target, k);
     }
 };
