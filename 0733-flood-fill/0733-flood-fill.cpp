@@ -1,29 +1,34 @@
 class Solution {
 public:
-
-    void dfs(vector<vector<int>>&image,int sr,int sc,int color,int oldColor){
-
-      if(sr<0 || sr>=image.size() || sc<0 || sc>=image[0].size() || image[sr][sc]!=oldColor){
-        return;
-
-      }
-
-      image[sr][sc]=color;
-
-      dfs(image,sr+1,sc,color,oldColor);
-      dfs(image,sr-1,sc,color,oldColor);
-      dfs(image,sr,sc+1,color,oldColor);
-      dfs(image,sr,sc-1,color,oldColor);
-
-    }
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-      int oldColor=image[sr][sc];
-
-      if(oldColor==color){
-        return image;
-      }
-      dfs(image,sr,sc,color,oldColor);
-      return image;
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc,
+                                  int color) {
         
+        int originalColor=image[sr][sc];
+        if (originalColor == color) return image;
+        int m = image.size();
+        int n = image[0].size();
+        queue<pair<int, int>> q;
+        q.push({sr, sc});
+        image[sr][sc] = color;
+
+
+        int dx[4] = {0, 1, 0, -1};
+        int dy[4] = {1, 0, -1, 0};
+        while (!q.empty()) {
+            int x = q.front().first;
+            int y = q.front().second;
+            q.pop();
+
+            for (int i = 0; i < 4; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+                if (nx>=0 && nx<m && ny>=0 && ny<n && image[nx][ny]==originalColor) {
+                    q.push({nx, ny});
+                    image[nx][ny] = color;
+                }
+            }
+        }
+
+        return image;
     }
 };
