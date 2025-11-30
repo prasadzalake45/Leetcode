@@ -759,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
+| [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -928,6 +929,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prasadzalake45/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
+| [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -987,6 +989,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/prasadzalake45/Leetcode/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -1005,6 +1008,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/prasadzalake45/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/prasadzalake45/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/prasadzalake45/Leetcode/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/prasadzalake45/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1396-count-servers-that-communicate](https://github.com/prasadzalake45/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2793-count-the-number-of-complete-components](https://github.com/prasadzalake45/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
