@@ -1,30 +1,23 @@
 class Solution {
 public:
-    bool bfs(int node, vector<vector<int>>& graph ,vector<int>& visited) {
-        visited[node] = 0;
+    bool dfs(int node, vector<vector<int>>& graph ,vector<int>& visited) {
+     
 
-        queue<int> q;
-        q.push(node);
-
-        while (!q.empty()) {
-            auto nod = q.front();
-            q.pop();
-
-            for (auto it : graph[nod]) {
-
-                if (visited[it] == -1) {
-                     visited[it] = !visited[nod];
-                    q.push(it);
-                   
-                } else if (visited[it] != -1) {
-                    if (visited[it] == visited[nod]) {
-                        return false;
-                    }
+       for(auto it:graph[node]){
+          if(visited[it]==-1){
+            visited[it]=!visited[node];
+           if (!dfs(it, graph, visited)) {
+                    return false;
                 }
+          }
+          else if(visited[it]!=-1){
+            if(visited[it]==visited[node]){
+                return false;
             }
-        }
+          }
+       }
 
-        return true;
+       return true;
     }
     bool isBipartite(vector<vector<int>>& graph) {
 
@@ -39,7 +32,8 @@ public:
 
         for (int i = 0; i < m; i++) {
             if (visited[i] == -1) {
-                if (bfs(i, graph, visited) == false) {
+                visited[i]=0;
+                if (dfs(i, graph, visited) == false) {
                     return false;
                 }
             }
