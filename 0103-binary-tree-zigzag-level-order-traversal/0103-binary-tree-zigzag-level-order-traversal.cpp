@@ -6,54 +6,55 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
 
-        // bfs
-
         if(root==NULL){
             return {};
         }
 
-        vector<vector<int>>ans;
-
-        queue<TreeNode*>q;
+        queue<TreeNode*> q;
         q.push(root);
-        bool zigzag=true;
 
-        while(!q.empty()){
-            int n=q.size();
-            vector<int>res;
+        vector<vector<int>> answer;
+        int flag=false;
 
-            for(int i=0;i<n;i++){
-                TreeNode* cur=q.front();
+        while (!q.empty()) {
+            int size = q.size();
+
+            vector<int> ans;
+
+            for (int i = 0; i < size; i++) {
+                auto it = q.front();
                 q.pop();
-                res.push_back(cur->val);
+                ans.push_back(it->val);
+                if (it->left) {
+                    q.push(it->left);
+                }
 
-                if(cur->left){
-                    q.push(cur->left);
+                if (it->right) {
+                    q.push(it->right);
                 }
-                if(cur->right){
-                    q.push(cur->right);
-                }
+                
             }
-            if(zigzag){
-                ans.push_back(res);
+
+            if(flag==true){
+              reverse(ans.begin(),ans.end());
+
+              answer.push_back(ans);
             }
-            if(!zigzag){
-                reverse(res.begin(),res.end());
-                ans.push_back(res);
+            else{
+                answer.push_back(ans);
             }
-            zigzag=!zigzag;
+            flag=!flag;
         }
-
-
-        return ans;
-        
-        
+         return answer;
     }
+
+   
 };
