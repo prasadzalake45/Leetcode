@@ -17,7 +17,7 @@ public:
             return 0;
         }
 
-        queue<pair<TreeNode*,long>>q;
+        queue<pair<TreeNode*,int>>q;
 
         q.push({root,0});
         int maxi=INT_MIN;
@@ -32,7 +32,7 @@ public:
                 auto it=q.front();
                 q.pop();
                 auto node=it.first;
-                int index=it.second;
+                long long index=it.second;
             
                
 
