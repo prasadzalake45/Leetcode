@@ -1,73 +1,86 @@
-    class Solution {
-    public:
-        vector<int> nsl(vector<int>& heights) {
-            vector<int> left;
-            stack<pair<int, int>> st;
-            int n = heights.size();
-            int psudo = -1;
-            for (int i = 0; i < n; i++) {
-                if (st.empty()) {
-                    left.push_back(psudo);
-                } else if (!st.empty() && st.top().first < heights[i]) {
-                    left.push_back(st.top().second);
-                } else {
-                    while (!st.empty() && st.top().first >= heights[i]) {
-                        st.pop();
-                    }
-                    if (st.empty()) {
-                        left.push_back(psudo);
-                    } else {
-                        left.push_back(st.top().second);
-                    }
-                }
-                st.push({heights[i], i});
+class Solution {
+public:
+
+    void nextSmallerLeft(vector<int>& heights,vector<int>&left){
+        stack<pair<int,int>>st;
+
+        for(int i=0;i<heights.size();i++){
+            while(!st.empty() && st.top().first>=heights[i]){
+                st.pop();
             }
-            return left;
+
+            if(st.empty()){
+                left.push_back(-1);
+            }
+            else{
+                left.push_back(st.top().second);
+            }
+
+            st.push({heights[i],i});
+        }
+    }
+
+    void nextSmallerRight(vector<int>& heights,vector<int>&right){
+       stack<pair<int,int>>st;
+
+       int n=heights.size();
+        for(int i=n-1;i>=0;i--){
+            while(!st.empty() && st.top().first>=heights[i]){
+                st.pop();
+            }
+
+            if(st.empty()){
+                right.push_back(n);
+            }
+            else{
+                right.push_back(st.top().second);
+            }
+
+            st.push({heights[i],i});
+        }
+    }
+    int largestRectangleArea(vector<int>& heights) {
+        // next smaller at left
+        // next smaller at right
+
+        // this need to do because you have to find the width
+        // width=right-left-1
+
+        // now you already have height as lenth
+        // multiply length * height you will get the max area
+        int maxi=INT_MIN;
+        vector<int>left;
+
+        nextSmallerLeft(heights,left);
+
+        vector<int>right;
+
+        nextSmallerRight(heights,right);
+        reverse(right.begin(),right.end());
+        
+        int n=heights.size();
+        vector<int>width(n);
+
+        for(int i=0;i<heights.size();i++){
+            cout<<left[i]<<"->>>"<<right[i]<<endl;
+           
+            width[i]=right[i]-left[i]-1;
         }
 
-        vector<int> nsr(vector<int>& heights) {
-            vector<int> right;
-            stack<pair<int, int>> st;
-            int n = heights.size();
-            int psudo = n;
-            for (int i = n - 1; i >= 0; i--) {
-                if (st.empty()) {
-                    right.push_back(psudo);
-                } else if (!st.empty() && st.top().first < heights[i]) {
-                    right.push_back(st.top().second);
-                } else {
-                    while (!st.empty() && st.top().first >= heights[i]) {
-                        st.pop();
-                    }
-                    if (st.empty()) {
-                        right.push_back(psudo);
-                    } else {
-                        right.push_back(st.top().second);
-                    }
-                }
-                st.push({heights[i], i});
-            }
-            reverse(right.begin(), right.end());
-            return right;
-        }
 
-        int largestRectangleArea(vector<int>& heights) {
-            int n = heights.size();
-            vector<int> rig = nsr(heights);
-            vector<int> lef = nsl(heights);
-            vector<int> width(n,0);
-            vector<long long> area(n);
+       
+        
+        for(int i=0;i<heights.size();i++){
 
-            for (int i = 0; i < n; i++) {
-                width[i] = rig[i] - lef[i] -1;
-            }
-
-            for (int i = 0; i < n; i++) {
-                area[i] = (long long)heights[i] * (long long)width[i];
-            }
+            // cout<<heights[i]<<"->"<<width[i]<<" ";
+            maxi=max(maxi,heights[i]*width[i]);
             
-            int maxi = *max_element(area.begin(), area.end());
-
-            return maxi;
         }
-    };
+
+        return maxi;
+
+        
+
+
+    }
+};
