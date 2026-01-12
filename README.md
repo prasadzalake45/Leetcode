@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/prasadzalake45/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/prasadzalake45/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [0994-rotting-oranges](https://github.com/prasadzalake45/Leetcode/tree/master/0994-rotting-oranges) |
 | [1002-maximum-width-ramp](https://github.com/prasadzalake45/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1004-max-consecutive-ones-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/prasadzalake45/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -592,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/prasadzalake45/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/prasadzalake45/Leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/prasadzalake45/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/prasadzalake45/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/prasadzalake45/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -971,6 +973,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0994-rotting-oranges](https://github.com/prasadzalake45/Leetcode/tree/master/0994-rotting-oranges) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/prasadzalake45/Leetcode/tree/master/1036-rotting-oranges) |
