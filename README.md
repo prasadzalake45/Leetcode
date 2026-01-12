@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/prasadzalake45/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1248-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1256-rank-transform-of-an-array](https://github.com/prasadzalake45/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1266-minimum-time-visiting-all-points](https://github.com/prasadzalake45/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/prasadzalake45/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/prasadzalake45/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prasadzalake45/Leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -744,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/prasadzalake45/Leetcode/tree/master/0670-maximum-swap) |
 | [0797-rabbits-in-forest](https://github.com/prasadzalake45/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1266-minimum-time-visiting-all-points](https://github.com/prasadzalake45/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1370-count-number-of-nice-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/prasadzalake45/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -1071,4 +1073,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/prasadzalake45/Leetcode/tree/master/0164-maximum-gap) |
+## Geometry
+|  |
+| ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/prasadzalake45/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 <!---LeetCode Topics End-->
