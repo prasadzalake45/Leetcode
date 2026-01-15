@@ -446,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/prasadzalake45/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0407-trapping-rain-water-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/prasadzalake45/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0743-network-delay-time](https://github.com/prasadzalake45/Leetcode/tree/master/0743-network-delay-time) |
 | [1304-longest-happy-string](https://github.com/prasadzalake45/Leetcode/tree/master/1304-longest-happy-string) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/prasadzalake45/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -793,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/prasadzalake45/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
@@ -969,6 +971,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prasadzalake45/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/prasadzalake45/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
@@ -1045,6 +1048,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/prasadzalake45/Leetcode/tree/master/0743-network-delay-time) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/prasadzalake45/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Union Find
@@ -1086,5 +1090,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/prasadzalake45/Leetcode/tree/master/0743-network-delay-time) |
 | [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
