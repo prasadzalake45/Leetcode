@@ -794,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0669-trim-a-binary-search-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -969,6 +970,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/prasadzalake45/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0813-all-paths-from-source-to-target](https://github.com/prasadzalake45/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/prasadzalake45/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -1061,6 +1063,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/prasadzalake45/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/prasadzalake45/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Combinatorics
@@ -1080,4 +1083,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1266-minimum-time-visiting-all-points](https://github.com/prasadzalake45/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
+## Graph Theory
+|  |
+| ------- |
+| [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
