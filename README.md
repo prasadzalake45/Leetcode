@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/prasadzalake45/Leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/prasadzalake45/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3194-find-words-containing-character](https://github.com/prasadzalake45/Leetcode/tree/master/3194-find-words-containing-character) |
+| [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/prasadzalake45/Leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/prasadzalake45/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3291-find-if-array-can-be-sorted](https://github.com/prasadzalake45/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3321-type-of-triangle](https://github.com/prasadzalake45/Leetcode/tree/master/3321-type-of-triangle) |
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2044-number-of-wonderful-substrings](https://github.com/prasadzalake45/Leetcode/tree/master/2044-number-of-wonderful-substrings) |
 | [2465-shifting-letters-ii](https://github.com/prasadzalake45/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/prasadzalake45/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/prasadzalake45/Leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3427-special-array-ii](https://github.com/prasadzalake45/Leetcode/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/prasadzalake45/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/prasadzalake45/Leetcode/tree/master/3643-zero-array-transformation-ii) |
@@ -603,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/prasadzalake45/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/prasadzalake45/Leetcode/tree/master/2411-spiral-matrix-iv) |
 | [2685-first-completely-painted-row-or-column](https://github.com/prasadzalake45/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
+| [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/prasadzalake45/Leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 ## Sorting
 |  |
 | ------- |
