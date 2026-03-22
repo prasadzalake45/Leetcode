@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/prasadzalake45/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/prasadzalake45/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/prasadzalake45/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/prasadzalake45/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/prasadzalake45/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/prasadzalake45/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -602,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/prasadzalake45/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1396-count-servers-that-communicate](https://github.com/prasadzalake45/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prasadzalake45/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/prasadzalake45/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/prasadzalake45/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/prasadzalake45/Leetcode/tree/master/2411-spiral-matrix-iv) |
 | [2685-first-completely-painted-row-or-column](https://github.com/prasadzalake45/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
