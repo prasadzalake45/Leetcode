@@ -1,43 +1,38 @@
-    class Solution {
-    public:
+class Solution {
+public:
 
-    int maxi  = 1; 
-    int startIdx=0;
-        void checkValidPalidrone(string s, int start,int end) {
-
-           
-
-            if (start < 0 || end>= s.size() || s[start] != s[end]) {
-                return;
-            }
-
-            int curSize=end-start+1;
-
-            if(curSize>maxi){
-                maxi=curSize;
-                startIdx=start;
-
-            }
-            
-            checkValidPalidrone(s,start-1,end+1);
+    bool checkPalindrone(string& s,int start,int end){
+        if(start>=end){
+            return true;
         }
-        string longestPalindrome(string s) {
 
-            int n = s.size();
-
-
-            if(n==1){
-                return s;
-            }
-
-
-            for (int i = 0; i < n; i++) {
-
-                checkValidPalidrone(s, i-1,i+1);// odd
-                checkValidPalidrone(s,i,i+1);//even
-            }
-
-
-            return s.substr(startIdx,maxi);
+        if(s[start]==s[end]){
+            return checkPalindrone(s,start+1,end-1);
         }
-    };
+
+        return false;
+
+        
+
+    }
+    string longestPalindrome(string s) {
+
+        int n=s.size();
+        int maxi=1;
+        int startIdx=0;
+
+        for(int i=0;i<n;i++){
+            for(int j=i;j<n;j++){
+                if(checkPalindrone(s,i,j)==true){
+                    if(j-i+1>maxi){
+                       maxi=j-i+1;
+                       startIdx=i;
+                    }
+                }
+            }
+        }
+        
+
+        return s.substr(startIdx,maxi);
+    }
+};
