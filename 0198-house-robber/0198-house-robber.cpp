@@ -17,8 +17,8 @@ public:
         int take=nums[n]+helper(nums,dp,n-2);
         int notTake=helper(nums,dp,n-1);
          
-        dp[n]=max(take,notTake);
-        return max(take,notTake);
+        
+        return dp[n]=max(take,notTake);
        
         
     }
