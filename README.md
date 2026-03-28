@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/prasadzalake45/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/prasadzalake45/Leetcode/tree/master/0733-flood-fill) |
+| [0746-min-cost-climbing-stairs](https://github.com/prasadzalake45/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0797-rabbits-in-forest](https://github.com/prasadzalake45/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0859-design-circular-deque](https://github.com/prasadzalake45/Leetcode/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/prasadzalake45/Leetcode/tree/master/0890-lemonade-change) |
@@ -674,6 +675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/prasadzalake45/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/prasadzalake45/Leetcode/tree/master/0542-01-matrix) |
+| [0746-min-cost-climbing-stairs](https://github.com/prasadzalake45/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [1063-best-sightseeing-pair](https://github.com/prasadzalake45/Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prasadzalake45/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
