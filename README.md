@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/prasadzalake45/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/prasadzalake45/Leetcode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/prasadzalake45/Leetcode/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/prasadzalake45/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/prasadzalake45/Leetcode/tree/master/0162-find-peak-element) |
 | [0164-maximum-gap](https://github.com/prasadzalake45/Leetcode/tree/master/0164-maximum-gap) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/prasadzalake45/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/prasadzalake45/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/prasadzalake45/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/prasadzalake45/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/prasadzalake45/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/prasadzalake45/Leetcode/tree/master/0169-majority-element) |
@@ -520,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/prasadzalake45/Leetcode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/prasadzalake45/Leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/prasadzalake45/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/prasadzalake45/Leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/prasadzalake45/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/prasadzalake45/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0205-isomorphic-strings](https://github.com/prasadzalake45/Leetcode/tree/master/0205-isomorphic-strings) |
@@ -685,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prasadzalake45/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/prasadzalake45/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/prasadzalake45/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/prasadzalake45/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0213-house-robber-ii) |
@@ -730,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/prasadzalake45/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/prasadzalake45/Leetcode/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/prasadzalake45/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/prasadzalake45/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/prasadzalake45/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -1120,4 +1125,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/prasadzalake45/Leetcode/tree/master/0743-network-delay-time) |
 | [0802-find-eventual-safe-states](https://github.com/prasadzalake45/Leetcode/tree/master/0802-find-eventual-safe-states) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/prasadzalake45/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
