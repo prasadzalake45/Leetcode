@@ -687,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/prasadzalake45/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/prasadzalake45/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/prasadzalake45/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/prasadzalake45/Leetcode/tree/master/0062-unique-paths) |
 | [0091-decode-ways](https://github.com/prasadzalake45/Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prasadzalake45/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/prasadzalake45/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -778,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/prasadzalake45/Leetcode/tree/master/0013-roman-to-integer) |
+| [0062-unique-paths](https://github.com/prasadzalake45/Leetcode/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/prasadzalake45/Leetcode/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/prasadzalake45/Leetcode/tree/master/0189-rotate-array) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/prasadzalake45/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -1111,6 +1113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/prasadzalake45/Leetcode/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/prasadzalake45/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bucket Sort
 |  |
