@@ -6,8 +6,8 @@ public:
             return 0;
         }
 
-        if (dp[prev+1][i] != -1) {
-            return dp[prev+1][i];
+        if (dp[i][prev+1] != -1) {
+            return dp[i][prev+1];
         }
 
         int take = 0;
@@ -19,7 +19,7 @@ public:
 
         int notTake = helper(nums, i + 1, prev, dp);
 
-        return dp[prev+1][i] = max(take, notTake);
+        return dp[i][prev+1] = max(take, notTake);
     }
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
