@@ -1,23 +1,33 @@
 class Solution {
 public:
+    int helper(vector<int>& nums, int target,int sum,int i) {
 
-    int solve(vector<int>&nums,int target,int i,int sum){
-        if(i==nums.size()){
-            if(sum==target){
-                return 1;
-            }
-            else{
-                return 0;
-            }
+       
+        if (i==nums.size() && sum == target) {
+            return 1;
         }
 
-        int plus=solve(nums,target,i+1,sum+nums[i]);
-        int minus=solve(nums,target,i+1,sum-nums[i]);
-        return plus+minus;
+        if(i==nums.size() && sum!=target){
+            return 0;
+        }
+
+
+
+        int addPlus=helper(nums,target,sum+nums[i],i+1);
+
+        int addMinus=helper(nums,target,sum-nums[i],i+1);
+
+        return addPlus+addMinus;
     }
+
     int findTargetSumWays(vector<int>& nums, int target) {
 
-        return  solve(nums,target,0,0);
-        
+        // you have to build the expression out of nums by addding each integer
+        // one of the symbol + or -
+        // before eacg integer in nums and concentatnate
+
+        // at evety integer we have two option either + or -
+
+        return helper(nums, target,0, 0);
     }
 };
