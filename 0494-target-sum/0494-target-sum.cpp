@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(vector<int>& nums, int target,int sum,int i) {
+    int helper(vector<int>& nums, int target,int sum,int i,vector<unordered_map<int,int>>&dp) {
 
        
         // if (i==nums.size() && sum == target) {
@@ -15,12 +15,16 @@ public:
             return sum==target;
         }
 
+        if(dp[i].find(sum)!=dp[i].end()){
+            return dp[i][sum];
+        }
 
-        int addPlus=helper(nums,target,sum+nums[i],i+1);
 
-        int addMinus=helper(nums,target,sum-nums[i],i+1);
+        int addPlus=helper(nums,target,sum+nums[i],i+1,dp);
 
-        return addPlus+addMinus;
+        int addMinus=helper(nums,target,sum-nums[i],i+1,dp);
+
+        return dp[i][sum]=addPlus+addMinus;
     }
 
     int findTargetSumWays(vector<int>& nums, int target) {
@@ -30,7 +34,8 @@ public:
         // before eacg integer in nums and concentatnate
 
         // at evety integer we have two option either + or -
-
-        return helper(nums, target,0, 0);
+        int n=nums.size();
+        vector<unordered_map<int,int>>dp(n);
+        return helper(nums, target,0, 0,dp);
     }
 };
