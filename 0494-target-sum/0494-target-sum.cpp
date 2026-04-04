@@ -3,14 +3,17 @@ public:
     int helper(vector<int>& nums, int target,int sum,int i) {
 
        
-        if (i==nums.size() && sum == target) {
-            return 1;
-        }
+        // if (i==nums.size() && sum == target) {
+        //     return 1;
+        // }
 
-        if(i==nums.size() && sum!=target){
-            return 0;
-        }
+        // if(i==nums.size() && sum!=target){
+        //     return 0;
+        // }
 
+        if(i==nums.size()){
+            return sum==target;
+        }
 
 
         int addPlus=helper(nums,target,sum+nums[i],i+1);
