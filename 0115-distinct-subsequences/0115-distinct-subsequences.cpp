@@ -28,7 +28,7 @@ public:
     int numDistinct(string s, string t) {
         int n1=s.size();
         int n2=t.size();
-        vector<vector<int>>dp(n1+1,vector<int>(n2,-1));
+        vector<vector<int>>dp(n1+1,vector<int>(n2+1,-1));
         return helper(s,t,0,0,dp);
     }
 };
