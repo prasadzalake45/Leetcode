@@ -1,9 +1,5 @@
 class Solution {
 public:
-
-
-
-
     vector<int>helper(vector<int>& A, vector<int>& B,vector<int>&C){
         unordered_map<int,int>mp1;
         unordered_map<int,int>mp2;
@@ -45,7 +41,7 @@ public:
          
         //approach
         //1) first check if it equal yes increase the cnt
-        // 2) check on map it present 
+        //2) check on map it present 
 
 
         int n=A.size();
